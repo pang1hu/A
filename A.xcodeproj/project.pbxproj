@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,7 +17,7 @@
 		2121EFBD24205372005BD452 /* ATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2121EFBC24205372005BD452 /* ATests.m */; };
 		2121EFC824205372005BD452 /* AUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2121EFC724205372005BD452 /* AUITests.m */; };
 		2121F02B24205A21005BD452 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2121F02924205A21005BD452 /* AViewController.m */; };
-		2121F02F24205A6B005BD452 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 2121F02E24205A6B005BD452 /* Target_A.m */; };
+		2121F07C2420A84B005BD452 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 2121F07A2420A84B005BD452 /* Target_A.m */; };
 		C043D0BC1652C26D8061E198 /* Pods_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190A449A37C76B89EF56C4F7 /* Pods_A.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,8 +60,8 @@
 		2121EFC924205372005BD452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2121F02924205A21005BD452 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		2121F02A24205A21005BD452 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		2121F02D24205A6B005BD452 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
-		2121F02E24205A6B005BD452 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		2121F07A2420A84B005BD452 /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		2121F07B2420A84B005BD452 /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
 		27BBE9CF26785D4ABE99AA74 /* Pods-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.release.xcconfig"; path = "Target Support Files/Pods-A/Pods-A.release.xcconfig"; sourceTree = "<group>"; };
 		A07B706234D56148D8443728 /* Pods-A.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.debug.xcconfig"; path = "Target Support Files/Pods-A/Pods-A.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,7 +117,6 @@
 		2121EF9F24205371005BD452 /* A */ = {
 			isa = PBXGroup;
 			children = (
-				2121F02C24205A4F005BD452 /* Targets */,
 				2121F02824205A21005BD452 /* A */,
 				2121EFA024205371005BD452 /* AppDelegate.h */,
 				2121EFA124205371005BD452 /* AppDelegate.m */,
@@ -155,17 +154,18 @@
 		2121F02824205A21005BD452 /* A */ = {
 			isa = PBXGroup;
 			children = (
+				2121F0792420A84B005BD452 /* Targets */,
 				2121F02A24205A21005BD452 /* AViewController.h */,
 				2121F02924205A21005BD452 /* AViewController.m */,
 			);
 			path = A;
 			sourceTree = "<group>";
 		};
-		2121F02C24205A4F005BD452 /* Targets */ = {
+		2121F0792420A84B005BD452 /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				2121F02D24205A6B005BD452 /* Target_A.h */,
-				2121F02E24205A6B005BD452 /* Target_A.m */,
+				2121F07A2420A84B005BD452 /* Target_A.m */,
+				2121F07B2420A84B005BD452 /* Target_A.h */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -176,7 +176,6 @@
 				A07B706234D56148D8443728 /* Pods-A.debug.xcconfig */,
 				27BBE9CF26785D4ABE99AA74 /* Pods-A.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -366,7 +365,7 @@
 				2121F02B24205A21005BD452 /* AViewController.m in Sources */,
 				2121EFA224205371005BD452 /* AppDelegate.m in Sources */,
 				2121EFB324205372005BD452 /* main.m in Sources */,
-				2121F02F24205A6B005BD452 /* Target_A.m in Sources */,
+				2121F07C2420A84B005BD452 /* Target_A.m in Sources */,
 				2121EFA524205371005BD452 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,6 +13,7 @@
 @implementation Target_A
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params{
+    NSLog(@"呼呼呼呼呼");
     AViewController * viewController = [[AViewController alloc] init];
     return viewController;
 }
